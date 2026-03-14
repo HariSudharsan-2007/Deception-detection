@@ -35,6 +35,7 @@ The models are evaluated using standard classification metrics:
 * **Visualizations**: 
     * Confusion matrices are generated using `seaborn.heatmap` to visualize True Positive and False Positive distributions across the truth and deception classes.
     * Training and validation loss curves are plotted across epochs to monitor model convergence and detect overfitting in the LSTM network.
+    * t-SNE plot have been included to visuvalise the high dimensional features in lower dimension.
 
 ## Dependencies
 * Python 3.x
@@ -42,5 +43,6 @@ The models are evaluated using standard classification metrics:
 * scikit-learn
 * xgboost
 * TensorFlow / Keras (for LSTM architecture)
+* Pytorch (for final LSTM architechture)
 * matplotlib
 * seaborn
